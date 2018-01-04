@@ -1,15 +1,20 @@
 {
   "name": "wagtailfontawesome",
-  "version": "1.0.7",
+  "version": "1.2.0",
   "description": "",
   "main": "index.js",
+  "repository": {
+    "type" : "git",
+    "url" : "https://github.com/npm/npm.git"
+  },
   "scripts": {
     "build": "gulp"
   },
   "author": "Alex Gleason",
   "license": "GPL-3.0",
   "devDependencies": {
-    "font-awesome": "^4.7.0",
+    "@fortawesome/fontawesome": "^1.1.0",
+    "@fortawesome/fontawesome-free-solid": "^5.0.2",
     "gulp": "^3.9.0",
     "gulp-clean-css": "^3.9.0",
     "gulp-gzip": "^1.4.0",
